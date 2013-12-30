@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/commUI_main"
+  android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@color/Black_Gray">
+   <!-- upper bar -->
+	<RelativeLayout android:id="@+id/commUI_main_headerBar" 
+		android:layout_alignParentTop="true" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" android:background="@drawable/pandora_header">
+		
+		<!-- page indicator bar -->
+		<LinearLayout android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true" 
+			android:id="@+id/commUI_main_pageIndicatorBar" 
+			android:layout_marginRight="90px" 
+			android:layout_centerInParent="true" 
+			android:layout_alignParentTop="true" 
+			android:paddingTop="4px">
+		</LinearLayout>
+
+		<RelativeLayout android:layout_width="wrap_content" 
+			android:layout_alignParentTop="true"
+			android:id="@+id/commUI_main_searchBar" 
+			android:layout_height="wrap_content" 
+			android:paddingRight="20px" 
+			android:layout_toLeftOf="@+id/commui_main_mgrBtn">
+		</RelativeLayout>
+	
+		
+</RelativeLayout> 
+	
+	<!-- main view -->
+	<RelativeLayout android:layout_width="fill_parent" 
+		android:id="@+id/commUI_main_primaryView" 
+		android:layout_marginTop="50dip" android:layout_height="fill_parent" android:layout_marginBottom="80dip">
+	</RelativeLayout>
+	
+	<!-- bottom bar -->
+	<RelativeLayout android:layout_width="wrap_content" 
+		android:layout_alignParentBottom="true" 
+		android:id="@+id/commUI_main_footerBar" 
+		android:gravity="bottom|center_horizontal" android:layout_height="90dip" android:background="@drawable/footer01">
+	</RelativeLayout>
+</RelativeLayout>

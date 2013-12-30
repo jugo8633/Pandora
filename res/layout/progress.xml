@@ -1,0 +1,13 @@
+<RelativeLayout android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:id="@+id/llProgressMain">
+
+<ProgressBar 
+android:id="@+id/progProgressBar" 
+android:layout_width="100dip" 
+android:layout_height="100dip"
+android:progressDrawable="@drawable/progress_small" />
+
+
+</RelativeLayout>

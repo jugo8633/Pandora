@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/apas/!svn/ver/465/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/v2/base
+END
+ConstantV2.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/apas/!svn/ver/465/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/v2/base/ConstantV2.java
+END
+PErrorV2.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/apas/!svn/ver/295/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/v2/base/PErrorV2.java
+END
+BaseServiceV2.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/apas/!svn/ver/295/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/v2/base/BaseServiceV2.java
+END
+ClientHandlerV2.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/apas/!svn/ver/295/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/v2/base/ClientHandlerV2.java
+END
+IServiceCallBackV2.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/apas/!svn/ver/295/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/v2/base/IServiceCallBackV2.aidl
+END
+PResultV2.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/apas/!svn/ver/295/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/v2/base/PResultV2.java
+END
+IServiceThreadV2.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/apas/!svn/ver/295/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/v2/base/IServiceThreadV2.java
+END
+IDataV2.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/apas/!svn/ver/295/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/v2/base/IDataV2.java
+END
+BaseServiceThreadV2.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/apas/!svn/ver/295/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/v2/base/BaseServiceThreadV2.java
+END
+PResultV2.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/apas/!svn/ver/295/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/v2/base/PResultV2.aidl
+END

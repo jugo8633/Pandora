@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pandora</string>
+
+<string name="info_content">Pandora is an automated music recommendation and Internet radio service. Enter a song or artist that you enjoy, and the service responds by playing selections that are musically similar.</string>
+
+
+
+
+
+
+
+<string name="pandora_login_save_password">Save Password</string>
+
+<string name="pandora_account_visit">Please visit :</string>
+<string name="pandora_visit_btn">http://www.pandora.com/hestia</string>
+<string name="pandora_create_account_content">from your computer to create your Pandora account. Your code for activation on a computer is:</string>
+<string name="pandora_playnow_info_why_title">Why the song is playing</string>
+<string name="sign_in_to_pandora">Sign in to Pandora</string>
+<string name="Email">Email</string>
+<string name="Password">Password</string>
+<string name="ok">OK</string>
+<string name="existing_member">Existing Member</string>
+<string name="create_an_account">Create An Account</string>
+<string name="cancel">Cancel</string>
+<string name="pause">Pause</string>
+<string name="thumb_up">Thumb Up</string>
+<string name="thumb_down">Thumb Down</string>
+<string name="next_song">Next Song</string>
+<string name="menu">Menu</string>
+<string name="bookmark_this_artist">Bookmark This Artist</string>
+<string name="bookmark_this_song">Bookmark This Song</string>
+<string name="why_was_this_song_selected">Why was this song selected</string>
+<string name="do_not_play_this_song_for_one_month">Do not play this song for one month</string>
+<string name="create_station">Create station</string>
+<string name="remove_station">Remove station</string>
+<string name="switch_user">Switch User</string>
+<string name="logout">Logout</string>
+<string name="new_user">New User</string>
+<string name="remove_user">Remove User</string>
+<string name="pandora">Pandora</string>
+<string name="search_result">Search Result</string>
+<string name="pandora_create_account">Create Account</string>
+<string name="connecting_to_the_internet">Connecting to the Internet...</string>
+
+<string name="add_new_user">Add new user</string>
+<string name="music_search">Music Search</string>
+<string name="save_password">Save Password</string>
+<string name=" thumbs_not_allowed_for_shared_station">Thumbs up/down not allowed for shared station</string>
+<string name="not_available_for_audio_ads">Not available for audio ads</string>
+<string name="station_limit">100 station limit</string>
+<string name="quickMix_station_cannot_be_deleted">QuickMix station cannot be deleted</string>
+<string name="what_is_pandora">What is Pandora?</string>
+<string name="sign_in">Sign In</string>
+<string name="new_member">New Member</string>
+<string name="create_account">Create Account</string>
+<string name="are_you_sure_you_want_to_remove">Are you sure you want to remove</string>
+<string name="yes">Yes</string>
+<string name="no">No</string>
+<string name="resume">Resume</string>
+
+
+
+</resources>

@@ -1,0 +1,31 @@
+<RelativeLayout android:id="@+id/rlSearchItem" 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" android:background="@color/List_BG">
+
+<TextView android:id="@+id/tvSearchType" 
+android:gravity="right|center_vertical" 
+android:layout_gravity="right|center_vertical" 
+android:layout_marginRight="15dip" 
+android:layout_width="wrap_content" 
+android:paddingLeft="50dip" 
+android:textSize="18sp" 
+android:text="@string/pandora" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" 
+android:layout_height="40dip"/>
+
+
+<frame.view.MarqueeTextView
+android:id="@+id/tvSearchResult" 
+android:layout_height="40dip" 
+android:gravity="left|center_vertical" 
+android:focusableInTouchMode="true" 
+android:textSize="18sp" 
+android:text="@string/pandora" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" 
+android:layout_toRightOf="@+id/tvSearchType" android:layout_width="320dip"/>
+
+</RelativeLayout>
+

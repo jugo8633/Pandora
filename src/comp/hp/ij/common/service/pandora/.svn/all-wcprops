@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/apas/!svn/ver/811/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora
+END
+PandoraServiceConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/apas/!svn/ver/753/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/PandoraServiceConstants.java
+END
+MessageHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/apas/!svn/ver/753/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/MessageHandler.java
+END
+ActivityBroadcastReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/apas/!svn/ver/699/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/ActivityBroadcastReceiver.java
+END
+PandoraService.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/apas/!svn/ver/753/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/PandoraService.java
+END
+IPandoraService.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/apas/!svn/ver/753/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/IPandoraService.aidl
+END
+PandoraServiceAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/apas/!svn/ver/753/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/PandoraServiceAdapter.java
+END
+PandoraServiceIdleAlarmThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/apas/!svn/ver/583/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/PandoraServiceIdleAlarmThread.java
+END
+ServiceBroadcastReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/apas/!svn/ver/483/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/ServiceBroadcastReceiver.java
+END
+PandoraWidgetBroadcast.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/apas/!svn/ver/219/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/PandoraWidgetBroadcast.java
+END
+PandoraAPIClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/apas/!svn/ver/583/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/PandoraAPIClient.java
+END
+PandoraServiceThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/apas/!svn/ver/811/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/PandoraServiceThread.java
+END

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 
+<drawable name="darkgray">#808080FF</drawable>
+<drawable name="white">#FFFFFFFF</drawable>
+<drawable name="transparent_background">#00000000</drawable>
+<drawable name="gray">#ff999999</drawable>
+<drawable name="black">#000000</drawable>
+<color name="station_item_focus">#1e7dab</color>
+<color name="footbar_focus">#ff6ccbf7</color>
+<color name="white">#FFFFFFFF</color>
+<color name="menu_black">#EE303030</color>
+<color name="Gray">#ff999999</color>
+<drawable name="LineGray">#80808080</drawable>
+<color name="Black">#FF000000</color>
+-->
+
+<color name="White">#FFFFFFFF</color>
+<color name="Gray">#ff999999</color>
+<color name="Black">#FF000000</color>
+<color name="Blue">#01B4F5</color>
+<color name="Focus_Blue">#FF4CAFDD</color>
+<color name="Trans_Black">#FA000000</color>
+<color name="Black_Gray">#EE303030</color>
+<drawable name="Gray">#ff999999</drawable>
+<drawable name="LineGray">#80808080</drawable>
+<drawable name="transparent_background">#00000000</drawable>
+
+<color name="Gray_White">#FFD8D8D8</color>
+<color name="Black_List">#FF171717</color>
+<color name="List_BG">#FF222222</color>
+</resources>

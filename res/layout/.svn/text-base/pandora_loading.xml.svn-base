@@ -1,0 +1,53 @@
+<RelativeLayout android:id="@+id/llLoadingMain" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:background="@color/Black" 
+android:gravity="center">
+
+<ImageView android:id="@+id/ivLoadingLogo" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:src="@drawable/pandoraicon" 
+android:layout_centerHorizontal="true" 
+android:layout_marginBottom="10dp">
+</ImageView>
+
+<ProgressBar
+style="?android:attr/progressBarStyleHorizontal" 
+android:id="@+id/pbLoading" 
+android:progressDrawable="@drawable/loadingbar" 
+android:layout_centerHorizontal="true" 
+android:layout_width="200px" 
+android:layout_height="10px" 
+android:max="100" 
+android:layout_below="@+id/ivLoadingLogo">
+</ProgressBar>
+
+<TextView android:id="@+id/tvLoadingTitle"
+android:layout_height="wrap_content" 
+android:layout_centerHorizontal="true" 
+android:layout_width="wrap_content" 
+android:text="@string/app_name" 
+android:layout_marginTop="10px" 
+android:layout_below="@+id/pbLoading" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" 
+android:textSize="20sp"/>
+
+<TextView android:id="@+id/tvConnect"
+android:layout_height="wrap_content" 
+android:layout_centerHorizontal="true" 
+android:layout_width="wrap_content" 
+android:textColor="@color/Gray" 
+android:textColorHighlight="@color/Gray" 
+android:textSize="16sp" 
+android:text="@string/connecting_to_the_internet" 
+android:layout_below="@+id/tvLoadingTitle" 
+android:layout_marginTop="5dp"/>
+
+</RelativeLayout>
+
+<!--
+android:progressDrawable="@drawable/loadingbar" 
+ -->

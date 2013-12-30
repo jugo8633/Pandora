@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="comp.hp.ij.mars.pandora"
+      android:versionCode="1" android:versionName="00.00.00.0014">
+    <application android:name="PandoraApplication" 
+    	android:icon="@drawable/icon_pandora" 
+    	android:label="@string/app_name" 
+    	android:process=":application" android:taskAffinity=":application">
+        <activity android:name=".PandoraApp"
+        	android:label="@string/app_name" 
+        	android:clearTaskOnLaunch="true" 
+        	android:alwaysRetainTaskState="false" 
+        	android:launchMode="singleInstance" 
+        	android:noHistory="false"
+        	android:theme="@android:style/Theme.Black" 
+        	android:screenOrientation="sensor"
+        	android:process=""
+        	android:taskAffinity=":activity"
+        	android:multiprocess="true">
+        	
+        	<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>	
+        
+    	<service android:name="comp.hp.ij.common.service.pandora.PandoraService" android:process="">
+        	<intent-filter>
+        		<action android:name="comp.hp.ij.common.service.pandora.PandoraService.REMOTE_SERVICE" />
+        	</intent-filter>
+    	</service>
+    	
+    	<service android:name="comp.hp.ij.common.service.mplayer.PlayerService" android:process="">
+        	<intent-filter>
+        		<action android:name="comp.hp.ij.common.service.mplayer.PlayerService.REMOTE_SERVICE" />
+        	</intent-filter>
+    	</service>
+    	
+		<receiver android:name=".PandoraWidgetProvider" 
+			android:label="@string/app_name" 
+			android:icon="@drawable/icon_pandora" android:process="">
+		<intent-filter>
+			<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+			<action android:name="customExtras" />
+		</intent-filter>	
+		<meta-data android:name="android.appwidget.provider"
+			android:resource="@xml/pandora_widget_provider_info"/>
+		</receiver>
+		
+</application>
+
+<uses-sdk android:minSdkVersion="5" />
+<uses-permission android:name="android.permission.CHANGE_CONFIGURATION"></uses-permission>
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest> 

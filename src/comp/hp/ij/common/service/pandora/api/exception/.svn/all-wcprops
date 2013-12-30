@@ -1,0 +1,317 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception
+END
+PandoraInvalidGenderException.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraInvalidGenderException.java
+END
+PandoraDeviceNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraDeviceNotFoundException.java
+END
+PandoraReadOnlyModeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraReadOnlyModeException.java
+END
+PandoraLicensingRestrictionsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraLicensingRestrictionsException.java
+END
+PandoraExplicitPinNotSetException.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraExplicitPinNotSetException.java
+END
+PandoraUrlParamMissingPartnerIdException.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraUrlParamMissingPartnerIdException.java
+END
+PandoraInvalidUsernameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraInvalidUsernameException.java
+END
+PandoraDeviceModelInvalidException.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraDeviceModelInvalidException.java
+END
+PandoraPartnerNotAuthorizedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraPartnerNotAuthorizedException.java
+END
+PandoraComplimentaryPeriodAlreadyInUseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraComplimentaryPeriodAlreadyInUseException.java
+END
+PandoraInvalidAdTokenException.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraInvalidAdTokenException.java
+END
+PandoraUserNotAuthorizedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraUserNotAuthorizedException.java
+END
+PandoraInvalidBirthYearException.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraInvalidBirthYearException.java
+END
+PandoraUrlParamMissingAuthTokenException.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraUrlParamMissingAuthTokenException.java
+END
+PandoraErrorDeviceDisabledException.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraErrorDeviceDisabledException.java
+END
+PandoraDeviceMetadataTooLongException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraDeviceMetadataTooLongException.java
+END
+PandoraInvalidZipCodeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraInvalidZipCodeException.java
+END
+PandoraCallNotAllowedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraCallNotAllowedException.java
+END
+PandoraInvalidCountryCodeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraInvalidCountryCodeException.java
+END
+PandoraApiVersionNotSupportedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraApiVersionNotSupportedException.java
+END
+PandoraTimeOutOfSyncException.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraTimeOutOfSyncException.java
+END
+PandoraParameterTypeMismatchException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraParameterTypeMismatchException.java
+END
+PandoraInvalidAuthTokenException.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraInvalidAuthTokenException.java
+END
+PandoraBaseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraBaseException.java
+END
+PandoraExplicitContentFilterNotEnableException.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraExplicitContentFilterNotEnableException.java
+END
+PandoraParameterMissingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraParameterMissingException.java
+END
+PandoraUrlParamMissingMethodException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraUrlParamMissingMethodException.java
+END
+PandoraExplicitPinMalformedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraExplicitPinMalformedException.java
+END
+PandoraInvalidLoginException.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraInvalidLoginException.java
+END
+PandoraDeviceAlreadyAssociatedToAccountException.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraDeviceAlreadyAssociatedToAccountException.java
+END
+PandoraUsernameAlreadyExistsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraUsernameAlreadyExistsException.java
+END
+PandoraUserTooYoungException.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraUserTooYoungException.java
+END
+PandoraCertificateRequiredException.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraCertificateRequiredException.java
+END
+PandoraNonSecureProtocolRequiredException.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraNonSecureProtocolRequiredException.java
+END
+PandoraParameterValueInvalidException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraParameterValueInvalidException.java
+END
+PandoraStationNameTooLongException.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraStationNameTooLongException.java
+END
+PandoraMaxStationsReachedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraMaxStationsReachedException.java
+END
+PandoraInternalErrorException.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraInternalErrorException.java
+END
+PandoraMaintenanceModeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraMaintenanceModeException.java
+END
+PandoraUrlParamMissingUserIdException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraUrlParamMissingUserIdException.java
+END
+PandoraStationDoesNotExistException.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraStationDoesNotExistException.java
+END
+PandoraUserNotActiveException.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraUserNotActiveException.java
+END
+PandoraErrorRemovingTooManySeedsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraErrorRemovingTooManySeedsException.java
+END
+PandoraUserNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraUserNotFoundException.java
+END
+PandoraErrorQuickmixRequiresMoreStationsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraErrorQuickmixRequiresMoreStationsException.java
+END
+PandoraErrorDeviceModelAlreadyExistsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraErrorDeviceModelAlreadyExistsException.java
+END
+PandoraMethodNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraMethodNotFoundException.java
+END
+PandoraExplicitPinIncorrectException.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraExplicitPinIncorrectException.java
+END
+PandoraInvalidEmailAddressException.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraInvalidEmailAddressException.java
+END
+PandoraExplicitPinAlreadySetException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraExplicitPinAlreadySetException.java
+END
+PandoraInvalidPasswordException.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraInvalidPasswordException.java
+END
+PandoraSecureProtocolRequiredException.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/exception/PandoraSecureProtocolRequiredException.java
+END

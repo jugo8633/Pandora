@@ -1,0 +1,16 @@
+<RelativeLayout 
+android:id="@+id/rlInfoMain" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/Black_Gray">
+
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tvInfoTitle" android:text="@string/what_is_pandora" android:textColor="@color/White" android:textColorHighlight="@color/White" android:textSize="22sp" android:paddingLeft="30dp" android:paddingTop="20dp"></TextView>
+<TextView android:layout_below="@+id/tvInfoTitle" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/info_content" android:textColor="@color/Gray_White" android:textColorHighlight="@color/Gray_White" android:paddingLeft="30dp" android:paddingRight="30dp" android:paddingTop="10dp" android:id="@+id/tvInfoContent" android:textSize="16sp"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginTop="30dp" android:layout_below="@+id/tvInfoContent" android:id="@+id/tvInfoExistMem" android:text="@string/existing_member" android:background="@color/Black" android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingLeft="30sp" android:textSize="16sp" android:textColor="@color/Gray" android:textColorHighlight="@color/Gray"></TextView>
+<ImageView android:layout_height="wrap_content" android:layout_below="@+id/tvInfoExistMem" android:id="@+id/ivLine01" android:src="@drawable/h_line800" android:layout_width="fill_parent"></ImageView>
+<TextView android:layout_below="@+id/ivLine01" android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/signin_btn" android:gravity="center" android:id="@+id/tvInfoExistMember" android:text="@string/sign_in" android:textColor="@color/White" android:textColorHighlight="@color/White" android:textSize="16sp" android:textStyle="bold" android:layout_marginLeft="30dp" android:layout_marginTop="20dp"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_below="@+id/tvInfoExistMember" android:background="@color/Black" android:layout_width="fill_parent" android:textColor="@color/Gray" android:textColorHighlight="@color/Gray" android:textSize="16sp" android:paddingLeft="30dp" android:paddingBottom="10dp" android:paddingTop="10dp" android:layout_marginTop="20dp" android:text="@string/new_member" android:id="@+id/tvInfoNewMember"></TextView>
+<ImageView android:layout_height="wrap_content" android:id="@+id/ivLine02" android:layout_width="fill_parent" android:src="@drawable/h_line800" android:layout_below="@+id/tvInfoNewMember"></ImageView>
+<TextView android:layout_height="wrap_content" android:layout_below="@+id/ivLine02" android:layout_width="wrap_content" android:id="@+id/tvInfoCreateAccount" android:background="@drawable/signin_btn" android:gravity="center" android:text="@string/create_an_account" android:textColor="@color/White" android:textColorHighlight="@color/White" android:textSize="16sp" android:textStyle="bold" android:layout_marginLeft="30dp" android:layout_marginTop="20dp"></TextView>
+</RelativeLayout>

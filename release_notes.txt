@@ -1,0 +1,102 @@
+Module Name=Pandora
+
+Module Version=00.00.00.0009
+Author=Jugo J.G. Ju
+Release Time=2009/12/18 10:00
+Update Features:
+    1. none
+Fixed Issues:
+    1. fix login text field background
+Known Issue:
+    1. none
+    
+Module Version=00.00.00.0008
+Author=Jugo J.G. Ju
+Release Time=2009/12/15 16:00
+Update Features:
+    1. update pandora logo picture
+Fixed Issues:
+    1. none
+Known Issue:
+    1. none
+    
+Module Version=00.00.00.0007
+Author=Jugo J.G. Ju
+Release Time=2009/12/15 16:00
+Update Features:
+    1. update manifest config
+Fixed Issues:
+    1. none
+Known Issue:
+    1. none
+    
+Module Version=00.00.00.0006
+Author=Jugo J.G. Ju
+Release Time=2009/12/11 18:00
+Update Features:
+    1. add remove station list confirm dialog
+Fixed Issues:
+    1. none
+Known Issue:
+    1. none
+    
+Module Version=00.00.00.0005
+Author=Jugo J.G. Ju
+Release Time=2009/12/10 16:00
+Update Features:
+    1. none
+Fixed Issues:
+    1. music search bug
+Known Issue:
+    1. none
+    
+Module Version=00.00.00.0004
+Author=Jugo J.G. Ju
+Release Time=2009/12/04 16:42
+Update Features:
+    1. add multi-user switch
+Fixed Issues:
+    1. none
+Known Issue:
+    1. none
+    
+Module Version=00.00.00.0003
+Author=Jugo J.G. Ju
+Release Time=2009/12/03 17:55
+Update Features:
+    1. add activation code login function
+Fixed Issues:
+    1. none
+Known Issue:
+    1. none
+    
+Module Version=00.00.00.0002
+Author=Jugo J.G. Ju
+Release Time=2009/12/03 09:30
+Update Features:
+    1. add new version
+Fixed Issues:
+    1. none
+Known Issue:
+    1. none
+
+    
+Module Version=0.0.2.0
+Author=Jugo Ju
+Release Time=2009/10/13 10:00
+Update Features:
+    1. update JDK version , java 1.5.21
+Fixed Issues:
+    None
+Known Issues:
+    None.
+
+Module Version=0.0.2.0
+Author=Jugo Ju
+Release Time=2009/10/07 10:00
+Update Features:
+    1. add pandora music search
+Fixed Issues:
+    None
+Known Issues:
+    None.

@@ -1,0 +1,123 @@
+<RelativeLayout 
+android:id="@+id/rlLoginMain" 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:layout_height="fill_parent" 
+android:layout_width="fill_parent" android:gravity="center" android:padding="40dp" android:background="@color/Black_List">
+
+
+<RelativeLayout 
+android:id="@+id/rlLoginBackground" 
+android:background="@drawable/login_bg_v" 
+android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+<TextView 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:id="@+id/tvLoginTitle" 
+android:textSize="20sp" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" 
+android:textStyle="bold" 
+android:layout_marginTop="20dip" 
+android:text="@string/sign_in_to_pandora" android:layout_alignTop="@+id/rlLoginBackground" android:layout_marginLeft="40dip">
+</TextView>
+
+<ImageView 
+android:layout_height="3dip" 
+android:layout_marginTop="15dip" android:id="@+id/ivLine01" android:src="@drawable/h_line800" android:layout_below="@+id/tvLoginTitle" android:layout_width="fill_parent" android:layout_marginLeft="30dp" android:layout_marginRight="30dp">
+</ImageView>
+
+<RelativeLayout 
+android:id="@+id/rlLoginPrimary" 
+android:layout_width="300dip" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+
+<TextView 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:id="@+id/tvLoginAccount" 
+android:text="@string/Email" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" 
+android:textSize="16sp" 
+android:textStyle="bold"/>
+
+<EditText 
+android:layout_height="40dip" 
+android:gravity="center" 
+android:singleLine="true" 
+android:layout_centerHorizontal="true" 
+android:layout_width="fill_parent" 
+android:layout_below="@+id/tvLoginAccount" 
+android:layout_marginTop="5dip" android:id="@+id/etLoginAccount" android:maxLength="128" android:background="@drawable/content_textfield_h_442x40_01"/>
+
+<TextView 
+android:id="@+id/tvLoginPassword" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" 
+android:textSize="16sp" 
+android:textStyle="bold" 
+android:text="@string/Password" 
+android:layout_below="@+id/etLoginAccount" android:paddingTop="20dip"/>
+
+<EditText 
+android:layout_height="40dip" 
+android:id="@+id/etLoginPassword" 
+android:gravity="center" 
+android:singleLine="true" 
+android:layout_centerHorizontal="true" 
+android:layout_width="fill_parent" 
+android:layout_below="@+id/tvLoginPassword" 
+android:layout_marginTop="5dip" 
+android:password="true" android:maxLength="128" android:background="@drawable/content_textfield_h_442x40_01"/>
+
+<ImageView 
+android:id="@+id/ivLoginPwdChkBox"
+android:layout_below="@+id/etLoginPassword" 
+android:layout_centerHorizontal="true" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:src="@drawable/checkbox" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="5dip" android:layout_marginTop="20dip"/>
+
+<TextView 
+android:id="@+id/tvLoginSavePwd" 
+android:layout_below="@+id/etLoginPassword" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_toLeftOf="@+id/ivLoginPwdChkBox" 
+android:text="@string/save_password" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" 
+android:textStyle="bold" 
+android:layout_alignTop="@+id/ivLoginPwdChkBox" 
+android:layout_marginRight="8dip" 
+android:layout_marginTop="6dip"/>
+
+</RelativeLayout>
+
+<ImageView 
+android:layout_height="3dip" 
+android:src="@drawable/h_line800" android:layout_width="fill_parent" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:id="@+id/ivLine02" android:layout_alignParentBottom="true" android:layout_marginBottom="65dp">
+</ImageView>
+
+
+
+<TextView 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:gravity="center" 
+android:background="@drawable/ok_btn" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" 
+android:textSize="18sp" 
+android:textStyle="bold" 
+android:id="@+id/tvLoginBtnOK" 
+android:text="@string/ok" android:layout_centerHorizontal="true" android:layout_alignParentBottom="true" android:layout_marginBottom="16dp"/>
+
+
+</RelativeLayout>
+
+</RelativeLayout>

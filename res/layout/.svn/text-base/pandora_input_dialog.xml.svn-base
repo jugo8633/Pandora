@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+android:background="@color/Black" 
+android:layout_height="fill_parent" 
+android:layout_width="fill_parent" 
+android:id="@+id/rlInputDialogMain" 
+android:paddingLeft="50dp" 
+android:paddingRight="50dp" 
+android:paddingTop="40dp" android:paddingBottom="30dp">
+
+<ImageView 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:id="@+id/ivMusicSearchTitle" 
+android:src="@drawable/pandora_station_logo" 
+android:paddingTop="50dp"/>
+
+<TextView 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:id="@+id/tvMusicSearchTitle" 
+android:text="@string/music_search" 
+android:paddingLeft="10dip" 
+android:textSize="20sp" 
+android:textColor="@color/Gray_White" 
+android:textColorHighlight="@color/Gray_White" 
+android:layout_alignBottom="@+id/ivMusicSearchTitle" 
+android:layout_alignParentRight="true"/>
+
+<!-- AutoCompleteTextView EditText -->
+<AutoCompleteTextView
+android:layout_height="wrap_content" 
+android:id="@+id/etInputSearch" 
+android:singleLine="true" 
+android:layout_marginTop="20dip" 
+android:layout_centerHorizontal="true" 
+android:layout_below="@+id/ivMusicSearchTitle" 
+android:layout_width="fill_parent" android:maxLength="128"/>
+
+<TextView android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/ok_btn" 
+android:gravity="center" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" 
+android:textSize="20sp" 
+android:id="@+id/tvInputOK" 
+android:text="@string/ok" 
+android:layout_alignParentBottom="true" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="100dp"/>
+
+<TextView android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/ok_btn" 
+android:gravity="center" 
+android:id="@+id/tvInputCancel" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" 
+android:textSize="20sp" 
+android:text="@string/cancel" 
+android:layout_alignParentBottom="true" 
+android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout>

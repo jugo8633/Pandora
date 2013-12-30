@@ -1,0 +1,62 @@
+<LinearLayout android:id="@+id/llPlaynowMenuMain"
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:orientation="vertical" 
+android:background="@color/Black_Gray" 
+android:layout_width="fill_parent" android:layout_height="190dip">
+
+<ImageView android:id="@+id/ivLine" 
+android:layout_width="fill_parent" android:src="@color/Gray_White" android:layout_height="3dip"/>
+
+<TextView android:id="@+id/tvPlayMenuBookMarkArtist" 
+android:layout_height="wrap_content" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" 
+android:textSize="18sp" 
+android:paddingBottom="10dip" 
+android:paddingTop="10dip" 
+android:gravity="left|center_vertical" 
+android:text="@string/bookmark_this_artist" android:paddingLeft="20dip" android:layout_width="fill_parent"/>
+
+<ImageView android:id="@+id/ivLine" 
+android:layout_height="2dip" 
+android:src="@color/Gray" android:layout_width="fill_parent" android:layout_marginLeft="20dip" android:layout_marginRight="20dip"/>
+
+<TextView android:id="@+id/tvPlayMenuBookMarkSong" 
+android:layout_height="wrap_content" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" 
+android:textSize="18sp" 
+android:paddingTop="10dip" 
+android:paddingBottom="10dip" 
+android:text="@string/bookmark_this_song" android:paddingLeft="20dip" android:gravity="left|center_vertical" android:layout_width="fill_parent"/>
+
+<ImageView android:id="@+id/ivLine" 
+android:layout_height="2dip" 
+android:src="@color/Gray" android:layout_width="fill_parent" android:layout_marginLeft="20dip" android:layout_marginRight="20dip"/>
+
+<TextView android:id="@+id/tvPlayMenuWhyThisSong" 
+android:layout_height="wrap_content" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" 
+android:textSize="18sp" 
+android:paddingBottom="10dip" 
+android:paddingTop="10dip" 
+android:gravity="left|center_vertical" 
+android:text="@string/why_was_this_song_selected" android:paddingLeft="20dip" android:layout_width="fill_parent"/>
+
+<ImageView android:id="@+id/ivLine" 
+android:src="@color/Gray" 
+android:layout_height="2dip" 
+android:layout_marginLeft="20dip" android:layout_marginRight="20dip" android:layout_width="fill_parent"/>
+
+<TextView android:id="@+id/tvPlayMenuDotPlay" 
+android:layout_height="wrap_content" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" 
+android:textSize="17sp" 
+android:paddingBottom="10dip" 
+android:paddingTop="10dip" 
+android:gravity="left|center_vertical" 
+android:text="@string/do_not_play_this_song_for_one_month" android:paddingLeft="20dip" android:layout_width="fill_parent"/>
+
+</LinearLayout>

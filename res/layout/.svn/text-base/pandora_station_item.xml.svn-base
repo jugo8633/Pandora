@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout 
+android:layout_width="fill_parent" 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:layout_height="wrap_content" 
+android:id="@+id/rlStationItemMain" 
+android:background="@color/List_BG">
+
+<ImageView 
+android:layout_marginRight="5dip" 
+android:id="@+id/ivStationState" 
+android:src="@drawable/pandora_nowplay_icon" 
+android:layout_marginLeft="50dp" 
+android:visibility="visible" 
+android:scaleType="center" 
+android:layout_height="40dp" 
+android:layout_width="40dp"/>
+
+<frame.view.MarqueeTextView 
+android:id="@+id/StationName" 
+android:text="@string/pandora" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White"
+android:gravity="center_vertical" 
+android:layout_toRightOf="@+id/ivStationState" 
+android:textSize="20sp" 
+android:layout_height="40dip" android:layout_width="360dp"/>
+
+
+</RelativeLayout>

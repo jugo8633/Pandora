@@ -1,0 +1,55 @@
+<RelativeLayout android:id="@+id/rlStationRemoveChkDlgMain" 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:gravity="center_horizontal" android:layout_width="430dip" android:layout_height="199dip" android:background="@drawable/content_popup_h_430x199_02">
+
+<TextView android:id="@+id/tvStationRemoveChkInfo" 
+android:gravity="center" 
+android:text="@string/are_you_sure_you_want_to_remove" 
+android:textSize="18sp" 
+android:layout_height="50sp" 
+android:layout_width="fill_parent" android:textColor="@color/Gray_White" android:textColorHighlight="@color/Gray_White"/>
+
+ 
+<RelativeLayout android:id="@+id/rlStationRemoveChkListMain" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_below="@+id/tvStationRemoveChkInfo">
+
+<frame.view.MarqueeTextView 
+android:id="@+id/tvStationRemoveList"
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" 
+android:layout_height="40dp" 
+android:textSize="18sp" 
+android:gravity="center_vertical" android:layout_centerHorizontal="true" android:layout_width="350dp"/>
+
+</RelativeLayout>
+
+
+
+<TextView 
+android:id="@+id/tvStationRemoveChkBtnNo"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/ok_btn" 
+android:text="@string/no" 
+android:gravity="center" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" 
+android:textSize="18sp" 
+android:layout_below="@+id/rlStationRemoveChkListMain" android:layout_marginTop="20dp" android:layout_marginLeft="125dp"/>
+
+<TextView android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/ok_btn" 
+android:gravity="center" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" 
+android:textSize="18sp" 
+android:text="@string/yes" 
+android:id="@+id/tvStationRemoveChkBtnYes" 
+android:layout_toRightOf="@+id/tvStationRemoveChkBtnNo" 
+android:layout_marginLeft="20dp" android:layout_below="@+id/rlStationRemoveChkListMain" android:layout_marginTop="20dp"/>
+
+
+</RelativeLayout>

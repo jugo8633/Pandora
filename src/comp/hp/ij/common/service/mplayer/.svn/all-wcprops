@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/apas/!svn/ver/811/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/mplayer
+END
+IMediaPlaybackServiceCallback.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/apas/!svn/ver/141/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/mplayer/IMediaPlaybackServiceCallback.aidl
+END
+IMediaPlaybackService.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/apas/!svn/ver/483/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/mplayer/IMediaPlaybackService.aidl
+END
+PlayerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/apas/!svn/ver/483/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/mplayer/PlayerService.java
+END
+PlayerState.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/apas/!svn/ver/483/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/mplayer/PlayerState.java
+END

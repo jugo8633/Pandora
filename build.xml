@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="MarsPandoraUI" default="help">
+
+    <!-- The local.properties file is created and updated by the 'android' tool.
+         It contain the path to the SDK. It should *NOT* be checked in in Version
+         Control Systems. -->
+    <property file="local.properties"/>
+
+    <!-- The build.properties file can be created by you and is never touched
+         by the 'android' tool. This is the place to change some of the default property values
+         used by the Ant rules.
+         Here are some properties you may want to change/update:
+
+         application-package
+             the name of your application package as defined in the manifest. Used by the
+             'uninstall' rule.
+         source-folder
+             the name of the source folder. Default is 'src'.
+         out-folder
+             the name of the output folder. Default is 'bin'.
+
+         Properties related to the SDK location or the project target should be updated
+          using the 'android' tool with the 'update' action.
+
+         This file is an integral part of the build system for your application and
+         should be checked in in Version Control Systems.
+
+         -->
+    <property file="build.properties"/>
+
+    <!-- The default.properties file is created and updated by the 'android' tool, as well
+         as ADT. 
+         This file is an integral part of the build system for your application and
+         should be checked in in Version Control Systems. -->
+    <property file="default.properties"/>
+
+    <!-- Custom Android task to deal with the project target, and import the proper rules.
+         This requires ant 1.6.0 or above. -->
+    <path id="android.antlibs">
+        <pathelement path="${sdk-location}/tools/lib/anttasks.jar" />
+        <pathelement path="${sdk-location}/tools/lib/sdklib.jar" />
+        <pathelement path="${sdk-location}/tools/lib/androidprefs.jar" />
+        <pathelement path="${sdk-location}/tools/lib/apkbuilder.jar" />
+        <pathelement path="${sdk-location}/tools/lib/jarutils.jar" />
+    </path>
+
+    <taskdef name="setup"
+        classname="com.android.ant.SetupTask"
+        classpathref="android.antlibs"/>
+
+    <!-- Execute the Android Setup task that will setup some properties specific to the target,
+         and import the rules files.
+         To customize the rules, copy/paste them below the task, and disable import by setting
+         the import attribute to false:
+            <setup import="false" />
+         
+         This will ensure that the properties are setup correctly but that your customized
+         targets are used.
+    -->
+    <setup />
+    
+    <!-- Foxconn customized section for Jar file -->
+    <!-- Variable Denifitions -->
+    <!--    Modatory -->
+    <property name="basedir" value="." />
+    <property name="build.folder" value="${basedir}/bin" />
+    <property name="gen.folder" value="${basedir}/gen" />
+    <property name="libs.folder" value="${basedir}/libs" />
+    <!--    Optional -->
+    <!--        External Jar files -->
+    <property name="out.folder" value="../../Service/jar" />
+    <property name="exjar.name1" value="CCPHttpClient.jar" />
+    <!--        External Jar files -->
+   
+
+    <!-- Clean Target: shall be invoked before building -->
+    <target name="clean" description="Clean the build files under bin directory">
+    <delete dir="${build.folder}" verbose="true" />
+    <mkdir dir="${build.folder}" />
+    <delete dir="${gen.folder}" verbose="true" />
+    <mkdir dir="${gen.folder}" />
+    <delete file="${libs.folder}/${exjar.name1}" /> 
+    </target>
+
+    <target name="jar-install" depends="clean" description="Copy external jar file to libs directory">
+    <mkdir dir="${libs.folder}" />
+    <copy file="${out.folder}/${exjar.name1}" tofile="${libs.folder}/${exjar.name1}"/>
+    </target>
+   
+    
+</project>

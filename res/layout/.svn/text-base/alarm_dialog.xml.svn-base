@@ -1,0 +1,40 @@
+<RelativeLayout android:id="@+id/rlAlarmDlgMain" 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:background="@drawable/login_bg" 
+android:layout_height="300dip" 
+android:layout_width="400dip">
+
+<TextView android:layout_centerHorizontal="true" 
+android:id="@+id/tvAlarmInfo" 
+android:textSize="22sp" 
+android:text="@string/pandora" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" 
+android:layout_width="350sp" 
+android:layout_height="200sp" 
+android:layout_marginTop="20dip" 
+android:gravity="center"/>
+
+<TextView android:layout_centerHorizontal="true" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignParentBottom="true" 
+android:layout_marginBottom="20dip" 
+android:background="@drawable/ok_btn" 
+android:gravity="center" 
+android:id="@+id/tvAlarmBtnOK" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" 
+android:textSize="18sp" 
+android:text="@string/ok"/>
+
+<ImageView android:layout_above="@+id/tvAlarmBtnOK" 
+android:layout_centerHorizontal="true" 
+android:id="@+id/ivLine" 
+android:layout_height="3dip" 
+android:layout_width="fill_parent" 
+android:src="@color/Black_Gray" 
+android:layout_marginBottom="10dip" 
+android:layout_marginLeft="40dip"/>
+
+</RelativeLayout>

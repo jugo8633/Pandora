@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/apas/!svn/ver/753/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api
+END
+DeviceRequester.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/DeviceRequester.java
+END
+AuthRequester.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/apas/!svn/ver/699/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/AuthRequester.java
+END
+Protocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/apas/!svn/ver/699/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/Protocol.java
+END
+AutoCompleteRequester.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/apas/!svn/ver/465/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/AutoCompleteRequester.java
+END
+TrackRequester.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/TrackRequester.java
+END
+XmlRpcResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/XmlRpcResult.java
+END
+BaseApi.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/BaseApi.java
+END
+Track.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/apas/!svn/ver/141/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/Track.java
+END
+BookmarkRequester.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/BookmarkRequester.java
+END
+Security.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/Security.java
+END
+JSONResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/JSONResult.java
+END
+PandoraAPIConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/apas/!svn/ver/753/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/PandoraAPIConstants.java
+END
+BaseHttpClientController.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/BaseHttpClientController.java
+END
+UserRequester.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/UserRequester.java
+END
+Result.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/Result.java
+END
+TestRequester.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/TestRequester.java
+END
+MusicRequester.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/MusicRequester.java
+END
+StationRequester.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/StationRequester.java
+END
+Station.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/apas/!svn/ver/141/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/Station.java
+END
+PandoraClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/apas/!svn/ver/753/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/PandoraClient.java
+END
+AutoCompleteProtocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/apas/!svn/ver/649/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/AutoCompleteProtocol.java
+END
+PandoraAPIErrorCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/PandoraAPIErrorCode.java
+END
+Ad.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/apas/!svn/ver/218/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/Ad.java
+END
+AdRequester.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/AdRequester.java
+END
+APIProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/apas/!svn/ver/753/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/APIProperties.java
+END
+XmlRpcProtocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/XmlRpcProtocol.java
+END
+SimpleCrypto.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/apas/!svn/ver/534/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/SimpleCrypto.java
+END
+JSONProtocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/apas/!svn/ver/699/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/JSONProtocol.java
+END
+Item.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/Item.java
+END
+FileDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/apas/!svn/ver/417/trunk/AppSet3/applications/Pandora/src/comp/hp/ij/common/service/pandora/api/FileDownloader.java
+END

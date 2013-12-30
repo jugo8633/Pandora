@@ -1,0 +1,87 @@
+<LinearLayout android:id="@+id/llPlayNowInfoMain" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:orientation="horizontal">
+
+<LinearLayout android:id="@+id/llPlayNowInfoLeft" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginLeft="80dip" android:layout_marginTop="10dip">
+
+<TextView android:id="@+id/tvPlnInfoStationName" 
+android:layout_height="wrap_content" 
+android:layout_marginLeft="10dip" 
+android:textSize="16sp" 
+android:layout_marginTop="10dip" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" android:text="@string/pandora" android:singleLine="true" android:ellipsize="marquee" android:focusable="true" android:focusableInTouchMode="true" android:marqueeRepeatLimit="marquee_forever" android:layout_width="180sp">
+</TextView>
+
+<ImageView android:id="@+id/ivPlnInfoAlbumArt" 
+android:src="@drawable/pandoraicon" 
+android:scaleType="fitXY" 
+android:layout_below="@+id/tvPlnInfoStationName" 
+android:layout_height="200dip" 
+android:layout_width="200dip">
+</ImageView>
+
+<TextView android:id="@+id/tvPlnInfoArtistName" 
+android:layout_height="wrap_content" 
+android:textSize="16sp" 
+android:layout_below="@+id/ivPlnInfoAlbumArt" 
+android:layout_marginTop="10dip" 
+android:layout_marginLeft="10dip" android:singleLine="true" android:text="@string/pandora" android:textColor="@color/Gray_White" android:textColorHighlight="@color/Gray_White" android:ellipsize="marquee" android:focusable="true" android:focusableInTouchMode="true" android:marqueeRepeatLimit="marquee_forever" android:layout_width="180sp">
+</TextView>
+
+<TextView android:id="@+id/tvPlnInfoSongName" 
+android:layout_height="wrap_content" 
+android:textSize="24sp" 
+android:layout_marginLeft="10dip" 
+android:layout_below="@+id/tvPlnInfoArtistName" android:singleLine="true" android:textColor="@color/Gray_White" android:textColorHighlight="@color/Gray_White" android:text="@string/pandora" android:marqueeRepeatLimit="marquee_forever" android:ellipsize="marquee" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="180sp">
+</TextView>
+
+<TextView android:id="@+id/tvPlnInfoAlbumName" 
+android:layout_height="wrap_content" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" 
+android:textSize="18sp" 
+android:layout_marginLeft="10dip" 
+android:layout_below="@+id/tvPlnInfoSongName" android:singleLine="true" android:layout_width="180sp" android:text="@string/pandora" android:marqueeRepeatLimit="marquee_forever" android:focusable="true" android:focusableInTouchMode="true" android:ellipsize="marquee">
+</TextView>
+
+</LinearLayout>
+
+<LinearLayout android:id="@+id/llPlayNowInfoRight" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" android:orientation="vertical">
+
+<TextView android:id="@+id/tvPlnInfoWhyTitle" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:text="@string/pandora_playnow_info_why_title" 
+android:textColorHighlight="@color/White" 
+android:textColor="@color/White" 
+android:layout_marginLeft="30dip" 
+android:layout_marginTop="40dip" 
+android:textStyle="bold" android:textSize="24sp"/>
+
+<TextView android:id="@+id/tvPlayNowInfoContent"
+android:layout_marginLeft="30dip" 
+android:layout_height="270dip" 
+android:layout_width="420dip" 
+android:scrollbars="vertical" android:textSize="18sp" android:textColor="@color/Gray_White" android:textColorHighlight="@color/Gray_White"/>
+
+<TextView android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:id="@+id/tvPlayNowInfoOK" 
+android:layout_gravity="right" 
+android:background="@drawable/ok_btn" 
+android:gravity="center" 
+android:textColor="@color/White" 
+android:textColorHighlight="@color/White" 
+android:text="@string/ok" android:layout_marginTop="10dip">
+</TextView>
+
+</LinearLayout>
+
+</LinearLayout>
